@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Personality Test</title>
+
+  <!-- Compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- Link to the jQuery Library -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/friend-icon.png" type="image/x-icon">
+  <link rel="icon" href="images/friend-icon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!--  -->
+    <div class="jumbotron">
+      <h1 class="text-center">
+         <span class="fa fa-deaf"></span> Friend Finder</h1>
+      <hr>
+      <h2 class="text-center">
+          <span class="fa fa-filter"></span> Take the personality test</h2>
+      <br>
+      <div class="text-center">
+        <a href="/tables">
+          <button class="btn btn-lg btn-primary">
+            <span class="fa fa-list-alt"></span> View Tables</button>
+        </a>
+        <a href="/">
+          <button class="btn btn-lg btn-default">
+            <span class="fa fa-home"></span>
+          </button>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- Survey Test Page -->
+        <div class="card border border-dark">
+          <div class="card-header bg-info">
+            <h4>Create a profile before you take the test!</h4>
+          </div>
+          <div class="card-body">
+            <form role="form">
+
+              <!-- Name input -->
+                <div class="form-group row">
+                    <h5 class="ml-2 mr-2">Name (Required)</h5>
+                    <input type="text" class="validate" placeholder="Your Name Here" id="userName">
+                </div>
+      
+                <!-- Picture input -->
+                <div class="form-group border-bottom border-dark row mt-2 mb-2">
+
+                    <h5 class="ml-2 mr-2">Link to Photo Image (Required)</h5>
+                    <input type="text" class="validate mr-3 mb-2" placeholder="Photo Link Here" id="userPhoto">
+                    
+                    <!-- Other image input styles -->
+                    <!-- <input type="" name="datafile" size="40"> -->
+                    <!-- <input type="file" name="fileupload" value="fileupload" id="fileupload"> <label for="fileupload"> 
+                      Select a file to upload</label>  -->
+                      
+
+                </div>
+
+                <br>
+
+                <!-- First question -->
+                <div class="form-group row mt-2 mb-2">
+
+                    <label class="my-1 mr-2" for="questionOne">
+                      There are more ways to skin a cat than there is to cook a egg.
+                    </label>
+
+                    <select class="custom-select my-1 mr-sm-2" id="questionOne">
+                      <option selected>Do you...</option>
+                      <option value="1">Strongly Disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">A Little if Both</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly Agree</option>
+                    </select>
+                  
+                </div>
+
+                <!-- Second question -->
+                <div class="form-group row mt-2 mb-2">
+
+                    <label class="my-1 mr-2" for="questionTwo">
+                      If you are too open minded your brains will fall out.
+                    </label>
+
+                    <select class="custom-select my-1 mr-sm-2" id="questionTwo">
+                      <option selected>Do you...</option>
+                      <option value="1">Strongly Disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">A Little if Both</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly Agree</option>
+                    </select>
+                  
+                </div>
+
+                <!-- Third question -->
+                <div class="form-group row mt-2 mb-2">
+
+                    <label class="my-1 mr-2" for="questionThree">
+                        He who laughs last probably doesn't understand the joke.
+                    </label>
+
+                    <select class="custom-select my-1 mr-sm-2" id="questionThree">
+                      <option selected>Do you...</option>
+                      <option value="1">Strongly Disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">A Little if Both</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly Agree</option>
+                    </select>
+                  
+                </div>
+
+                <!-- Fourth question -->
+                <div class="form-group row mt-2 mb-2">
+
+                    <label class="my-1 mr-2" for="questionFour">
+                        The worst time to have a heart attack is during a game of charades.
+                    </label>
+
+                    <select class="custom-select my-1 mr-sm-2" id="questionFour">
+                      <option selected>Do you...</option>
+                      <option value="1">Strongly Disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">A Little if Both</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly Agree</option>
+                    </select>
+                  
+                </div>
+
+                <!-- Fifth question -->
+                <div class="form-group row mt-2 mb-2">
+
+                    <label class="my-1 mr-2" for="questionFive">
+                        If you do a job too well, you’ll get stuck with it.
+                    </label>
+
+                    <select class="custom-select my-1 mr-sm-2" id="questionFive">
+                      <option selected>Do you...</option>
+                      <option value="1">Strongly Disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">A Little if Both</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly Agree</option>
+                    </select>
+                  
+                </div>
+
+                <!-- Sixth question -->
+                <div class="form-group row mt-2 mb-2">
+
+                    <label class="my-1 mr-2" for="questionSix">
+                        When you're right, no one remembers. When you're wrong, no one forgets.
+                    </label>
+
+                    <select class="custom-select my-1 mr-sm-2" id="questionSix">
+                      <option selected>Do you...</option>
+                      <option value="1">Strongly Disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">A Little if Both</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly Agree</option>
+                    </select>
+                  
+                </div>
+
+                <!-- Seventh question -->
+                <div class="form-group row mt-2 mb-2">
+
+                    <label class="my-1 mr-2" for="questionSeven">
+                        Fish and visitors stink after three days.
+                    </label>
+
+                    <select class="custom-select my-1 mr-sm-2" id="questionSeven">
+                      <option selected>Do you...</option>
+                      <option value="1">Strongly Disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">A Little if Both</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly Agree</option>
+                    </select>
+                  
+                </div>
+
+                <!-- Eigth question -->
+                <div class="form-group row mt-2 mb-2">
+
+                    <label class="my-1 mr-2" for="questionEight">
+                        Those who throw dirt only lose ground.
+                    </label>
+
+                    <select class="custom-select my-1 mr-sm-2" id="questionEight">
+                      <option selected>Do you...</option>
+                      <option value="1">Strongly Disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">A Little if Both</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly Agree</option>
+                    </select>
+                  
+                </div>
+
+                <!-- Ninth question -->
+                <div class="form-group row mt-2 mb-2">
+
+                    <label class="my-1 mr-2" for="questionNine">
+                        A clear conscience is usually the sign of a bad memory.
+                    </label>
+
+                    <select class="custom-select my-1 mr-sm-2" id="questionNine">
+                      <option selected>Do you...</option>
+                      <option value="1">Strongly Disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">A Little if Both</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly Agree</option>
+                    </select>
+                  
+                </div>
+
+                <!-- Tenth question -->
+                <div class="form-group row mt-2 mb-2">
+
+                    <label class="my-1 mr-2" for="questionTen">
+                        Spitting off tall buildings is fun.
+                    </label>
+
+                    <select class="custom-select my-1 mr-sm-2" id="questionTen">
+                      <option selected>Do you...</option>
+                      <option value="1">Strongly Disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">A Little if Both</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly Agree</option>
+                    </select>
+                  
+                </div>
+
+              <button id="submitTest" type="submit" class="btn btn-primary submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="surveyMatch" class="modal">
+        <div class="modal-content">
+          <h4>Match</h4>
+          <div class="form"></div>
+          <h5 id="userMatch"></h5>
+          <img id="userMatchImage" class="card" width="650" src="">
+        </div>
+
+        <div class="modal-footer">
+          <a href="/survey">Fill it out again!</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <a href="/app/data/friends.js">API Table Link</a> |
+          <a href="#">API Wait List</a>
+      </div>
+
+      <script type="text/javascript" src="surveyLogic.js"></script>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
