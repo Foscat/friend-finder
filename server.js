@@ -18,5 +18,6 @@ require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 app.listen(PORT, function() {
+  // Alerts that server is running and on what port
     console.log("App listening on PORT: " + PORT);
   });

@@ -1,7 +1,7 @@
+// Will be empty later but one is in here as a tester to make sure communication is good between files
 var peopleArray = [
     {
         name: "Kyle",
-        userName: "Long Schlong Silver",
         photo: "https://i.kym-cdn.com/photos/images/newsfeed/000/059/688/SonichuOriginal.jpg",
         results: [
             5,
@@ -17,3 +17,5 @@ var peopleArray = [
           ]
     }
 ];
+
+module.exports = (peopleArray)

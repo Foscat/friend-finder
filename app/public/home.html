@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <title>Friend Finder</title>
 
-  <!-- Latest compiled and minified CSS -->
+  <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom css -->
+  <link rel="stylesheet" href="assets/style.css">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/friend-icon.png" type="image/x-icon">
@@ -15,12 +18,13 @@
 </head>
 <body>
 
+  <!-- Holds all info in app -->
   <div class="container">
 
     <!-- Header box -->
-    <div class="jumbotron">
+    <div class="jumbotron blueHead bright">
 
-      <h1 class="text-center"><span class="fa fa-deaf"><ion-icon name="person-add"></ion-icon></span> Friend Finder</h1>
+      <h1 class="text-center"><span class="fa fa-user-times"><ion-icon name="person-add"></ion-icon></span> Friend Finder</h1>
       <hr>
       <h2 class="text-center">Find friends just like you and build your social echo-chamber</h2>
       <br>
@@ -32,7 +36,12 @@
 
     </div> <!-- end header box-->
 
-    
+    <div id="opinions" class="row">
+      <img class="col" src="images/opinions.png">
+      <img class="col"src="images/tryToday.png">
+    </div>
+
+    <!-- See backend infor for the curious -->
     <footer class="footer">
 
       <div class="container">

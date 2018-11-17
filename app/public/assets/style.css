@@ -1,0 +1,24 @@
+body {
+    background-color: lightgray;
+}
+.bright {
+    color: cornsilk;
+}
+option,
+select {
+    background-color: rgb(130, 135, 156);
+}
+.blueHead {
+    background-color: rgb(17, 25, 65);
+}
+.match {
+    color: darkgoldenrod;
+}
+#survey-card {
+    background-color: rgb(86, 94, 130);
+}
+#matchInfo {
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
