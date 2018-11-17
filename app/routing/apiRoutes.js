@@ -28,6 +28,7 @@ module.exports = function(app) {
 
             // number var that will do math for each question and holds the number
             var differance = 0;
+            
             for(var r = 0; r < testResults.length; r++) {
 
                 differance += Math.abs(friendData[i].results[r] - testResults[r]);

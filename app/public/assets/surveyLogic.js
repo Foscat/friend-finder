@@ -1,15 +1,15 @@
 // Logic for the survey in how it takes in answers and matches a user up with thier match baised on those answers
 
 var crazyTest = $(document).ready(function(){
-    console.log("Test1")
+    // console.log("Test1")
     $("#matchInfo").hide();
     // $("select").formSelect();
 
-    console.log("Test2")
+    // console.log("Test2")
 // When the user submits the test answers
 $("#submitTest").on("click", function(event) {
 
-    console.log("Test3");
+    // console.log("Test3");
 
     event.preventDefault();
     
@@ -39,10 +39,11 @@ $("#submitTest").on("click", function(event) {
     .done(function(data) {
 
         console.log('response = ' + JSON.stringify(data));
+
         // Set the name and image values of friend match
-        
         $("#userMatch").append(data.name);
         $("#userMatchPhoto").attr("src", data.photo);
+        // makes info appear
         $("#matchInfo").show();
         
     })
